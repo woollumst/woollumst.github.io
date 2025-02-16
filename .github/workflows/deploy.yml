@@ -22,10 +22,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Move build output to /docs
-        run: |
-          rm -rf docs
-          mv dist docs
 
       - name: Commit and push changes
         run: |
