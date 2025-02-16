@@ -10,6 +10,7 @@ function App() {
         <h1>Portfolio React App</h1>
         <h2>Toby Woollums</h2>
         <p>More coming soon...</p>
+        <p>testing with an update..</p>
       </div>
     </>
   )
