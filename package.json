@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "rm -rf docs && mv dist docs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
