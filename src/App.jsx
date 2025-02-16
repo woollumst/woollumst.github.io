@@ -7,6 +7,7 @@ function App() {
     <>
       <div>
         <h1>Portfolio React App</h1>
+        <h2>update</h2>
       </div>
     </>
   )
