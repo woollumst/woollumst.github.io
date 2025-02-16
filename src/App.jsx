@@ -2,12 +2,14 @@
 // import './App.css'
 
 function App() {
+  document.title = "Woollums Dev"
 
   return (
     <>
       <div>
         <h1>Portfolio React App</h1>
-        <h2>update</h2>
+        <h2>Toby Woollums</h2>
+        <p>More coming soon...</p>
       </div>
     </>
   )
