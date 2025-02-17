@@ -20,6 +20,16 @@
   gap: 20px;
 }
 
+.nav-links {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.nav-links.open {
+  max-height: 300px;
+}
+
 .nav-links li {
   display: inline;
 }
