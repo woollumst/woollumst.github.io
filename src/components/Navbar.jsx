@@ -8,13 +8,11 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">My Portfolio</div>
-
-      {/* Hamburger Icon */}
+      
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         ☰
       </div>
-
-      {/* Navigation Links */}
+      
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
         <li>
           <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
