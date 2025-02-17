@@ -14,9 +14,9 @@ const projects = [
         github: "https://www.github.com/woollumst/woollumst-pep-spring-project/",
     },
     {
-        title: "Student System"
+        title: "Student System",
         description: "sample",
-        tech: ["C++", "Git"]
+        tech: ["C++", "Git"],
         github: "https://www.github.com/woollumst/StudentSystem/",
     }
 ];
