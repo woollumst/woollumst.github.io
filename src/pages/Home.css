@@ -8,6 +8,11 @@ button {
   font-size: 1.2em;
 }
 
+.featuredContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 600px) {
   .home {
     padding: 20px;
