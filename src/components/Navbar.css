@@ -30,6 +30,16 @@
   font-size: 1.2em;
 }
 
+.nav-links {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.nav-links.open {
+  max-height: 300px;
+}
+
 /* Mobile Navigation */
 .hamburger {
   display: none;
