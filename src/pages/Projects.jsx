@@ -1,29 +1,41 @@
 import "./Projects.css";
 
+const projects = [
+    {
+        title: "Employee Management System",
+        description: "sample text",
+        tech: ["Java", "Spring", "React", "MySQL"],
+        github: "https://www.github.com/woollumst/EmployeeManagementSystem/",
+    },
+    {
+        title: "Social Media API (Spring)",
+        description: "sample",
+        tech: ["Java", "Spring", "MySQL"],
+        github: "https://www.github.com/woollumst/woollumst-pep-spring-project/",
+    },
+    {
+        title: "Student System"
+        description: "sample",
+        tech: ["C++", "Git"]
+        github: "https://www.github.com/woollumst/StudentSystem/",
+    }
+];
+
 function Projects () {
     return (
         <div className="projects">
             <h1>My Projects</h1>
-            <ul className="project-list">
-                <li className="project-list-item">
-                    <h2>Employee Management System</h2>
-                    <p>Language: Java (Spring), JavaScript (React)</p>
-                    <a href="https://www.github.com/woollumst/EmployeeManagementSystem/" target="_blank">Link to GitHub Repo</a>
-                    <p>Description: sample text</p>
-                </li>
-                <li className="project-list-item">
-                    <h2>Social Media API (Spring)</h2>
-                    <p>Language: Java (Spring)</p>
-                    <a href="https://www.github.com/woollumst/woollumst-pep-spring-project/" target="_blank">Link to GitHub Repo</a>
-                    <p>Description: sample text</p>
-                </li>
-                <li className="project-list-item">
-                    <h2>Student System</h2>
-                    <p>Language: C++</p>
-                    <a href="https://www.github.com/woollumst/StudentSystem/" target="_blank">Link to GitHub Repo</a>
-                    <p>Description: sample text</p>
-                </li>
-            </ul>
+            <div className="projects-container">
+                {projects.map((projects, index) => (
+                    <div key={index} className="project-card">
+                        <h2>{project.title}</h2>
+                        <p>{project.description}</p>
+                        <p className="tech-stack">Tech: {project.tech.join(", ")}</p>
+                        <a className="project-link" href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
+            ))}
+            </div>
         </div>
     );
 }
