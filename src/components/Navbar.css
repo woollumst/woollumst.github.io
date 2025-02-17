@@ -1,3 +1,4 @@
+/* Base Navbar Styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -12,20 +13,11 @@
   font-weight: bold;
 }
 
+/* Default Nav Links */
 .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
-}
-
-.nav-links {
-  transition: max-height 0.3s ease-in-out;
-  max-height: 0;
-  overflow: hidden;
-}
-
-.nav-links.open {
-  max-height: 300px;
 }
 
 .nav-links li {
@@ -36,6 +28,13 @@
   color: white;
   text-decoration: none;
   font-size: 1.2em;
+}
+
+/* Mobile Navigation */
+.hamburger {
+  display: none;
+  font-size: 2em;
+  cursor: pointer;
 }
 
 /* Mobile Styles */
@@ -62,10 +61,4 @@
   .nav-links li {
     padding: 15px 0;
   }
-}
-
-.hamburger {
-  display: none;
-  font-size: 2em;
-  cursor: pointer;
 }
