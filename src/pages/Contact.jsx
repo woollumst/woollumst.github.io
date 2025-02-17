@@ -6,9 +6,11 @@ function Contact () {
             <br>
             <h2>Toby Woollums</h2>
             <h3>Software Developer</h3>
-            <p><a href="mailto:woollumst@gmail.com" target="_blank">Email: woollumst@gmail.com</a></p>
-            <p><a href="https://www.linkedin.com/in/toby-woollums" target="_blank">LinkedIn</a></p>
-            <p><a href="https://github.com/woollumst/" target="_blank">Github</a></p>
+            <div className="contact-links">
+                <a href="mailto:woollumst@gmail.com" target="_blank">Email: woollumst@gmail.com</a>
+                <a href="https://www.linkedin.com/in/toby-woollums" target="_blank">LinkedIn</a>
+                <a href="https://github.com/woollumst/" target="_blank">Github</a>
+            </div>
         </div>
     );
 }
