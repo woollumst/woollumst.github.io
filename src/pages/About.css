@@ -1,0 +1,32 @@
+.about {
+    text-align: center;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #0077b5;
+    background-color: whitesmoke;
+}
+
+h3 {
+    color: goldenrod;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: whitesmoke;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}

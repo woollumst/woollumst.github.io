@@ -1,3 +1,5 @@
+import "./About.css";
+
 function About() {
     return (
         <div className="about">
@@ -6,12 +8,14 @@ function About() {
             <p>Hi, I'm Toby Woollums, a passionate aspiring software developer working towards becoming a **full-stack developer**. I have a strong foundation in **Java and JavaScript** and am expanding my expertise in **React, TypeScript, and DevOps tools**. Currently, I'm pursuing a **B.S. in Computer Science at WGU** while actively working on projects to improve my skills</p>
             <br />
             <h2>Skills</h2>
-            <p>Languages: Java, C++, SQL, JavaScript, TypeScript (Learning)</p>
-            <p>Front End: React (JavaScript), HTML, CSS</p>
-            <p>Back End: Spring (Java), Node.js</p>
-            <p>Dev Ops: Docker, AWS (Learning)</p>
-            <p>Version Control: Git @ GitHub</p>
-            <p>Testing: JUnit (TDD), Mockito</p>
+            <ul>
+                <li>Languages: Java, C++, SQL, JavaScript, TypeScript (Learning)</li>
+                <li>Front End: React (JavaScript), HTML, CSS</li>
+                <li>Back End: Spring (Java), Node.js</li>
+                <li>Dev Ops: Docker, AWS (Learning)</li>
+                <li>Version Control: Git @ GitHub</li>
+                <li>Testing: JUnit (TDD), Mockito</li>
+            </ul>
             <br />
             <h2>Education & Certifications</h2>
             <h3>B.S. Computer Science (In Progress)</h3>

@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">My Portfolio</div>
+      <div className="logo">Toby Woollums</div>
       
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         ☰
