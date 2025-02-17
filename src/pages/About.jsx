@@ -7,7 +7,7 @@ function About() {
         **full-stack developer**. I have a strong foundation in **Java and JavaScript** and am 
         expanding my expertise in **React, TypeScript, and DevOps tools**.  
         Currently, I'm pursuing a **B.S. in Computer Science at WGU** while actively working on 
-        projects to improve my skills
+        projects to improve my skills</p>
             <br />
             <h2>Skills</h2>
             <p>Languages: Java, C++, SQL, JavaScript, TypeScript (Learning)</p>
