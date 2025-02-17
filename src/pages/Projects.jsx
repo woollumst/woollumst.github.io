@@ -18,7 +18,7 @@ const projects = [
         description: "sample",
         tech: ["C++", "Git"],
         github: "https://www.github.com/woollumst/StudentSystem/",
-    }
+    },
 ];
 
 function Projects () {
