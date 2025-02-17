@@ -5,7 +5,7 @@
     margin: auto;
 }
 
-h1, h2 {
+.heading {
     color: #0077b5;
     background-color: whitesmoke;
 }
@@ -19,12 +19,12 @@ p {
     line-height: 1.5;
 }
 
-ul {
+.list {
     list-style: none;
     padding: 0;
 }
 
-ul li {
+.list-items {
     background: whitesmoke;
     padding: 10px;
     margin: 5px 0;
