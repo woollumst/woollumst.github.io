@@ -26,7 +26,7 @@ function Projects () {
         <div className="projects">
             <h1>My Projects</h1>
             <div className="projects-container">
-                {projects.map((projects, index) => (
+                {projects.map((project, index) => (
                     <div key={index} className="project-card">
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>
