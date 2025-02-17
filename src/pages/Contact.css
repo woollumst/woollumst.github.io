@@ -13,14 +13,14 @@
 .contact-links a {
   text-decoration: none;
   color: white;
-  background: #0077b5; /* LinkedIn blue */
+  background: #D44638; /* Email */
   padding: 10px 20px;
   border-radius: 5px;
   transition: background 0.3s ease-in-out;
 }
 
-.contact-links a:nth-child(2) { background: #333; } /* GitHub */
-.contact-links a:nth-child(3) { background: #D44638; } /* Email */
+.contact-links a:nth-child(2) { background: #0077b5; } /* LinkedIn Blue */
+.contact-links a:nth-child(3) { background: #333; } /* GitHub */
 
 .contact-links a:hover {
   opacity: 0.8;
