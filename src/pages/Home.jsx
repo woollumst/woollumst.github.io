@@ -7,15 +7,15 @@ function Home() {
       <p>Full Stack Developer | React Enthusiast</p>
       <button>View Projects</button>
       <div className="featuredContainer">
-        <div>
+        <div className="featuredItem">
           <h2>About Me</h2>
           <p>sample text</p>
         </div>
-        <div>
+        <div className="featuredItem">
           <h2>Contact Me</h2>
           <p>sample text</p>
         </div>
-        <div>
+        <div className="featuredItem">
           <h2>Projects</h2>
           <p>sample text</p>
         </div>
