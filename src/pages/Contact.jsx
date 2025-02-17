@@ -9,7 +9,7 @@ function Contact () {
             <h2>Toby Woollums</h2>
             <h3>Software Developer</h3>
             <div className="contact-links">
-                <a href="mailto:woollumst@gmail.com" target="_blank">Email: woollumst@gmail.com</a>
+                <a href="mailto:woollumst@gmail.com" target="_blank">Email</a>
                 <a href="https://www.linkedin.com/in/toby-woollums" target="_blank">LinkedIn</a>
                 <a href="https://github.com/woollumst/" target="_blank">Github</a>
             </div>
