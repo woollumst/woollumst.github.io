@@ -23,12 +23,11 @@ function Home() {
       <button>View Projects</button>
       <div className="featuredContainer">
         {featuredItems.map((featuredItem, index) => (
-            <div key={index}>
+            <div key={index} className="featured-card">
               <h2>{featuredItem.title}</h2>
               <p>{featuredItem.description}</p>
             </div>
-          )),
-        };
+        ))}
       </div>
     </div>
   );
