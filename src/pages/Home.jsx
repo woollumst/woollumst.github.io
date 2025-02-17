@@ -1,5 +1,20 @@
 import "./Home.css";
 
+const featuredItems = [
+  {
+    title: "About Me",
+    description: "sample text",
+  },
+  {
+    title: "Projects",
+    description: "sample text",
+  },
+  {
+    title: "Contact Me",
+    description: "sample text",
+  },
+];
+
 function Home() {
   return (
     <div className="home">
@@ -7,18 +22,13 @@ function Home() {
       <p>Full Stack Developer | React Enthusiast</p>
       <button>View Projects</button>
       <div className="featuredContainer">
-        <div className="featuredItem">
-          <h2>About Me</h2>
-          <p>sample text</p>
-        </div>
-        <div className="featuredItem">
-          <h2>Contact Me</h2>
-          <p>sample text</p>
-        </div>
-        <div className="featuredItem">
-          <h2>Projects</h2>
-          <p>sample text</p>
-        </div>
+        {featuredItems.map((featuredItem, index) => (
+            <div key={index}>
+              <h2>{featuredItem.title}</h2>
+              <p>{featuredItem.description}</p>
+            </div>
+          )),
+        };
       </div>
     </div>
   );
