@@ -72,3 +72,21 @@
     padding: 15px 0;
   }
 }
+
+@media (min-width: 768px) {
+  /* Desktop styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .navbar ul {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .navbar li {
+    padding: 10px 20px;
+  }
+}
