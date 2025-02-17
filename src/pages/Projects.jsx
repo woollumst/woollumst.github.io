@@ -33,8 +33,7 @@ function Projects () {
                         <p className="tech-stack">Tech: {project.tech.join(", ")}</p>
                         <a className="project-link" href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
                     </div>
-                </div>
-            ))}
+                ))}
             </div>
         </div>
     );
