@@ -23,3 +23,9 @@ body {
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none; /* Hide menu on small screens */
+  }
+}
