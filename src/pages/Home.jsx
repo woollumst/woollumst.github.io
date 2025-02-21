@@ -1,4 +1,5 @@
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
 const featuredItems = [
   {
@@ -15,12 +16,14 @@ const featuredItems = [
   },
 ];
 
+const navigate = { useNavigate };
+
 function Home() {
   return (
     <div className="home">
       <h1>Welcome to My Portfolio</h1>
       <p>Full Stack Developer | React Enthusiast</p>
-      <button>View Projects</button>
+      <button onClick={navigate('./Projects')}>View Projects</button>
       <div className="featuredContainer">
         {featuredItems.map((featuredItem, index) => (
             <div key={index} className="featured-card">
