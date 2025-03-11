@@ -2,9 +2,15 @@ import "./Projects.css";
 
 const projects = [
     {
+        title: "Task Management App",
+        description: "Full stack application, used for coordinating tasks with others",
+        tech: ["Node.js", "Express.js", "React.ts", "PostgreSQL"],
+        github: "https://www.github.com/woollumst/lumaa-spring-2025-swe",
+    },
+    {
         title: "Employee Management System",
         description: "sample text",
-        tech: ["Java", "Spring", "React", "MySQL"],
+        tech: ["Java", "Spring", "React.js", "MySQL"],
         github: "https://www.github.com/woollumst/EmployeeManagementSystem/",
     },
     {
@@ -16,7 +22,7 @@ const projects = [
     {
         title: "Student System",
         description: "sample",
-        tech: ["C++", "Git"],
+        tech: ["C++", "Memory Management", "OOP"],
         github: "https://www.github.com/woollumst/StudentSystem/",
     },
 ];
